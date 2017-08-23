@@ -11,7 +11,7 @@ const renderField = ({
                          meta: {touched, error, warning}
                      }) => (
     <div>
-        <label>
+            <label>
             {label}
         </label>
         <div>
@@ -43,7 +43,6 @@ export default reduxForm({
     form: "validateForm",       /*为什么要这个东西*/
 
 })(ValidateForm)
-
 
 
 
